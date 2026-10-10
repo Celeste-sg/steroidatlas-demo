@@ -1,0 +1,761 @@
+{
+  "version": "1.0",
+  "molecules": [
+    {
+      "demo_code": "DEMO-GC-01",
+      "original_code": "C-0008",
+      "name": "Hydrocortisone",
+      "category": "corticosteroid",
+      "smiles": "C[C@]12CCC(=O)C=C1CC[C@@H]3[C@@H]2[C@H](C[C@]4([C@H]3CC[C@@]4(C(=O)CO)O)C)O",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5754",
+      "identity_check_status": "2026-10-03 PubChem结构与RDKit InChIKey匹配",
+      "pubchem_cid": "5754",
+      "inchikey": "JYGXADMDTFJGBT-VWUMJDOOSA-N",
+      "data_class": "REAL",
+      "sha256": "c15f5f361e4b46b8a913667b5676b44bf63a6e5c82d71b409369dc2750d10cf2",
+      "descriptors": {
+        "demo_code": "DEMO-GC-01",
+        "name": "Hydrocortisone",
+        "inchikey": "JYGXADMDTFJGBT-VWUMJDOOSA-N",
+        "rdkit_version": "2026.03.3",
+        "mw": "362.47",
+        "clogp": "1.78",
+        "tpsa": "94.83",
+        "hba": "5",
+        "hbd": "3",
+        "fsp3": "0.81",
+        "ring_count": "4",
+        "sa_score": "4.35",
+        "qed": "0.696",
+        "is_steroid_scaffold": "True",
+        "data_class": "REAL",
+        "source": "RDKit / 真实计算描述符.csv",
+        "sha256": "ec75b5073e3c92076d2614a0fb9deda479076f4433d18031737248d2c3b53a97"
+      },
+      "canonical_smiles": "C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO"
+    },
+    {
+      "demo_code": "DEMO-GC-02",
+      "original_code": "C-0009",
+      "name": "Dexamethasone",
+      "category": "corticosteroid",
+      "smiles": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)F)C",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5743",
+      "identity_check_status": "2026-10-03 PubChem结构与RDKit InChIKey匹配",
+      "pubchem_cid": "5743",
+      "inchikey": "UREBDLICKHMUKA-CXSFZGCWSA-N",
+      "data_class": "REAL",
+      "sha256": "c15f5f361e4b46b8a913667b5676b44bf63a6e5c82d71b409369dc2750d10cf2",
+      "descriptors": {
+        "demo_code": "DEMO-GC-02",
+        "name": "Dexamethasone",
+        "inchikey": "UREBDLICKHMUKA-CXSFZGCWSA-N",
+        "rdkit_version": "2026.03.3",
+        "mw": "392.47",
+        "clogp": "1.9",
+        "tpsa": "94.83",
+        "hba": "5",
+        "hbd": "3",
+        "fsp3": "0.727",
+        "ring_count": "4",
+        "sa_score": "4.64",
+        "qed": "0.667",
+        "is_steroid_scaffold": "True",
+        "data_class": "REAL",
+        "source": "RDKit / 真实计算描述符.csv",
+        "sha256": "ec75b5073e3c92076d2614a0fb9deda479076f4433d18031737248d2c3b53a97"
+      },
+      "canonical_smiles": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO"
+    },
+    {
+      "demo_code": "DEMO-GC-03",
+      "original_code": "C-0010",
+      "name": "Prednisolone",
+      "category": "corticosteroid",
+      "smiles": "C[C@]12C[C@@H]([C@H]3[C@H]([C@@H]1CC[C@@]2(C(=O)CO)O)CCC4=CC(=O)C=C[C@]34C)O",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5755",
+      "identity_check_status": "2026-10-03 PubChem结构与RDKit InChIKey匹配",
+      "pubchem_cid": "5755",
+      "inchikey": "OIGNJSKKLXVSLS-VWUMJDOOSA-N",
+      "data_class": "REAL",
+      "sha256": "c15f5f361e4b46b8a913667b5676b44bf63a6e5c82d71b409369dc2750d10cf2",
+      "descriptors": {
+        "demo_code": "DEMO-GC-03",
+        "name": "Prednisolone",
+        "inchikey": "OIGNJSKKLXVSLS-VWUMJDOOSA-N",
+        "rdkit_version": "2026.03.3",
+        "mw": "360.45",
+        "clogp": "1.56",
+        "tpsa": "94.83",
+        "hba": "5",
+        "hbd": "3",
+        "fsp3": "0.714",
+        "ring_count": "4",
+        "sa_score": "4.42",
+        "qed": "0.695",
+        "is_steroid_scaffold": "True",
+        "data_class": "REAL",
+        "source": "RDKit / 真实计算描述符.csv",
+        "sha256": "ec75b5073e3c92076d2614a0fb9deda479076f4433d18031737248d2c3b53a97"
+      },
+      "canonical_smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO"
+    },
+    {
+      "demo_code": "DEMO-GC-04",
+      "original_code": "C-0011",
+      "name": "Betamethasone",
+      "category": "corticosteroid",
+      "smiles": "C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)F)C",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/9782",
+      "identity_check_status": "2026-10-03 PubChem结构与RDKit InChIKey匹配",
+      "pubchem_cid": "9782",
+      "inchikey": "UREBDLICKHMUKA-DVTGEIKXSA-N",
+      "data_class": "REAL",
+      "sha256": "c15f5f361e4b46b8a913667b5676b44bf63a6e5c82d71b409369dc2750d10cf2",
+      "descriptors": {
+        "demo_code": "DEMO-GC-04",
+        "name": "Betamethasone",
+        "inchikey": "UREBDLICKHMUKA-DVTGEIKXSA-N",
+        "rdkit_version": "2026.03.3",
+        "mw": "392.47",
+        "clogp": "1.9",
+        "tpsa": "94.83",
+        "hba": "5",
+        "hbd": "3",
+        "fsp3": "0.727",
+        "ring_count": "4",
+        "sa_score": "4.64",
+        "qed": "0.667",
+        "is_steroid_scaffold": "True",
+        "data_class": "REAL",
+        "source": "RDKit / 真实计算描述符.csv",
+        "sha256": "ec75b5073e3c92076d2614a0fb9deda479076f4433d18031737248d2c3b53a97"
+      },
+      "canonical_smiles": "C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO"
+    },
+    {
+      "name": "Brexanolone",
+      "smiles": "CC(=O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@@H]4[C@@]3(CC[C@H](C4)O)C)C",
+      "canonical_smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
+      "inchikey": "AURFZBICLPNKBZ-SYBPFIFISA-N",
+      "demo_code": "API-007",
+      "data_class": "REAL",
+      "source": "公开结构 / archived demo input",
+      "sha256": "85904ab58ea28a3e11577b10633fd0e5f4b63c6f836ae9ad6d46b0c80f4f97b1",
+      "descriptors": {
+        "mw": 318.5,
+        "clogp": 4.6,
+        "tpsa": 37.3,
+        "hba": 2,
+        "hbd": 1,
+        "fsp3": 0.952,
+        "ring_count": 4,
+        "data_class": "REAL",
+        "source": "RDKit / archived demo input",
+        "sha256": "85904ab58ea28a3e11577b10633fd0e5f4b63c6f836ae9ad6d46b0c80f4f97b1"
+      }
+    },
+    {
+      "demo_code": "API-005",
+      "name": "Testosterone undecanoate",
+      "smiles": "CCCCCCCCCCC(=O)O[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CCC4=CC(=O)CC[C@]34C)C",
+      "inchikey": "UDSFVOAUHKGBEK-CNQKSJKFSA-N",
+      "data_class": "REAL",
+      "source": "PubChem identity / verified pilot manifest",
+      "sha256": "8177417692bad2dfde2f5fc5f1cfd63a5ee76770b6711703c64bfac95e3168de"
+    },
+    {
+      "demo_code": "API-011",
+      "name": "Treprostinil",
+      "smiles": "CCCCC[C@@H](CC[C@H]1[C@@H](C[C@H]2[C@@H]1CC3=C(C2)C(=CC=C3)OCC(=O)O)O)O",
+      "inchikey": "PAJMKGZZBBTTOY-ZFORQUDYSA-N",
+      "data_class": "REAL",
+      "source": "PubChem identity / verified pilot manifest",
+      "sha256": "259b010a832c12032354e385ba998097531472cee16653a4ca49c3e0fd21cd9a"
+    }
+  ],
+  "experiments": [
+    {
+      "record_id": "SIM-01-biology",
+      "demo_code": "DEMO-GC-01",
+      "name": "Hydrocortisone",
+      "assay_name": "SIM-GR binding Ki",
+      "assay_type": "biology",
+      "value": "8.0",
+      "unit": "nM",
+      "species": "human",
+      "protocol": "SIM-GR-01",
+      "data_class": "SIMULATED",
+      "notes": "人为构造，非实测；仅验证流程",
+      "source": "人为构造 / 模拟实验数据.csv",
+      "sha256": "5cec43932b97bce3b4027bf31ae21d223cb906031e3fc7acfe7f04ad4f343f67"
+    },
+    {
+      "record_id": "SIM-01-adme",
+      "demo_code": "DEMO-GC-01",
+      "name": "Hydrocortisone",
+      "assay_name": "SIM-Human liver microsomal stability",
+      "assay_type": "adme",
+      "value": "42.0",
+      "unit": "% remaining at 30 min",
+      "species": "human",
+      "protocol": "SIM-HLM-01",
+      "data_class": "SIMULATED",
+      "notes": "人为构造，非实测；仅验证流程",
+      "source": "人为构造 / 模拟实验数据.csv",
+      "sha256": "5cec43932b97bce3b4027bf31ae21d223cb906031e3fc7acfe7f04ad4f343f67"
+    },
+    {
+      "record_id": "SIM-02-biology",
+      "demo_code": "DEMO-GC-02",
+      "name": "Dexamethasone",
+      "assay_name": "SIM-GR binding Ki",
+      "assay_type": "biology",
+      "value": "1.5",
+      "unit": "nM",
+      "species": "human",
+      "protocol": "SIM-GR-01",
+      "data_class": "SIMULATED",
+      "notes": "人为构造，非实测；仅验证流程",
+      "source": "人为构造 / 模拟实验数据.csv",
+      "sha256": "5cec43932b97bce3b4027bf31ae21d223cb906031e3fc7acfe7f04ad4f343f67"
+    },
+    {
+      "record_id": "SIM-02-adme",
+      "demo_code": "DEMO-GC-02",
+      "name": "Dexamethasone",
+      "assay_name": "SIM-Human liver microsomal stability",
+      "assay_type": "adme",
+      "value": "55.0",
+      "unit": "% remaining at 30 min",
+      "species": "human",
+      "protocol": "SIM-HLM-01",
+      "data_class": "SIMULATED",
+      "notes": "人为构造，非实测；仅验证流程",
+      "source": "人为构造 / 模拟实验数据.csv",
+      "sha256": "5cec43932b97bce3b4027bf31ae21d223cb906031e3fc7acfe7f04ad4f343f67"
+    },
+    {
+      "record_id": "SIM-03-biology",
+      "demo_code": "DEMO-GC-03",
+      "name": "Prednisolone",
+      "assay_name": "SIM-GR binding Ki",
+      "assay_type": "biology",
+      "value": "4.0",
+      "unit": "nM",
+      "species": "human",
+      "protocol": "SIM-GR-01",
+      "data_class": "SIMULATED",
+      "notes": "人为构造，非实测；仅验证流程",
+      "source": "人为构造 / 模拟实验数据.csv",
+      "sha256": "5cec43932b97bce3b4027bf31ae21d223cb906031e3fc7acfe7f04ad4f343f67"
+    },
+    {
+      "record_id": "SIM-03-adme",
+      "demo_code": "DEMO-GC-03",
+      "name": "Prednisolone",
+      "assay_name": "SIM-Human liver microsomal stability",
+      "assay_type": "adme",
+      "value": "38.0",
+      "unit": "% remaining at 30 min",
+      "species": "human",
+      "protocol": "SIM-HLM-01",
+      "data_class": "SIMULATED",
+      "notes": "人为构造，非实测；仅验证流程",
+      "source": "人为构造 / 模拟实验数据.csv",
+      "sha256": "5cec43932b97bce3b4027bf31ae21d223cb906031e3fc7acfe7f04ad4f343f67"
+    },
+    {
+      "record_id": "SIM-04-biology",
+      "demo_code": "DEMO-GC-04",
+      "name": "Betamethasone",
+      "assay_name": "SIM-GR binding Ki",
+      "assay_type": "biology",
+      "value": "1.2",
+      "unit": "nM",
+      "species": "human",
+      "protocol": "SIM-GR-01",
+      "data_class": "SIMULATED",
+      "notes": "人为构造，非实测；仅验证流程",
+      "source": "人为构造 / 模拟实验数据.csv",
+      "sha256": "5cec43932b97bce3b4027bf31ae21d223cb906031e3fc7acfe7f04ad4f343f67"
+    },
+    {
+      "record_id": "SIM-04-adme",
+      "demo_code": "DEMO-GC-04",
+      "name": "Betamethasone",
+      "assay_name": "SIM-Human liver microsomal stability",
+      "assay_type": "adme",
+      "value": "49.0",
+      "unit": "% remaining at 30 min",
+      "species": "human",
+      "protocol": "SIM-HLM-01",
+      "data_class": "SIMULATED",
+      "notes": "人为构造，非实测；仅验证流程",
+      "source": "人为构造 / 模拟实验数据.csv",
+      "sha256": "5cec43932b97bce3b4027bf31ae21d223cb906031e3fc7acfe7f04ad4f343f67"
+    }
+  ],
+  "similarity": [
+    {
+      "query": "Hydrocortisone",
+      "target": "Hydrocortisone",
+      "tanimoto": "1.0",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Hydrocortisone",
+      "target": "Dexamethasone",
+      "tanimoto": "0.333333",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Hydrocortisone",
+      "target": "Prednisolone",
+      "tanimoto": "0.683333",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Hydrocortisone",
+      "target": "Betamethasone",
+      "tanimoto": "0.333333",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Dexamethasone",
+      "target": "Hydrocortisone",
+      "tanimoto": "0.333333",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Dexamethasone",
+      "target": "Dexamethasone",
+      "tanimoto": "1.0",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Dexamethasone",
+      "target": "Prednisolone",
+      "tanimoto": "0.418919",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Dexamethasone",
+      "target": "Betamethasone",
+      "tanimoto": "1.0",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Prednisolone",
+      "target": "Hydrocortisone",
+      "tanimoto": "0.683333",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Prednisolone",
+      "target": "Dexamethasone",
+      "tanimoto": "0.418919",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Prednisolone",
+      "target": "Prednisolone",
+      "tanimoto": "1.0",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Prednisolone",
+      "target": "Betamethasone",
+      "tanimoto": "0.418919",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Betamethasone",
+      "target": "Hydrocortisone",
+      "tanimoto": "0.333333",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Betamethasone",
+      "target": "Dexamethasone",
+      "tanimoto": "1.0",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Betamethasone",
+      "target": "Prednisolone",
+      "tanimoto": "0.418919",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    },
+    {
+      "query": "Betamethasone",
+      "target": "Betamethasone",
+      "tanimoto": "1.0",
+      "method": "Morgan radius=2 fpSize=2048 includeChirality=False; demo computation, not database search",
+      "data_class": "REAL",
+      "source": "RDKit / 结构相似性计算.csv",
+      "sha256": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e"
+    }
+  ],
+  "sources": [
+    {
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5754",
+      "data_class": "REAL",
+      "title": "PubChem CID 5754"
+    },
+    {
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5743",
+      "data_class": "REAL",
+      "title": "PubChem CID 5743"
+    },
+    {
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5755",
+      "data_class": "REAL",
+      "title": "PubChem CID 5755"
+    },
+    {
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/9782",
+      "data_class": "REAL",
+      "title": "PubChem CID 9782"
+    }
+  ],
+  "api_checks": [
+    {
+      "data_class": "REAL",
+      "source": "基础API验证记录.csv",
+      "run": "1",
+      "time_asia_taipei": "2026-10-03T14-36-24",
+      "scope": "case import + base APIs, NOT AI/report/full workflow",
+      "http_checks": "49",
+      "created_records": "16",
+      "result": "PASS",
+      "evidence": "demo-api-verification-2026-10-03T14-36-24.json"
+    },
+    {
+      "data_class": "REAL",
+      "source": "基础API验证记录.csv",
+      "run": "2",
+      "time_asia_taipei": "2026-10-03T14-37-17",
+      "scope": "case import + base APIs, NOT AI/report/full workflow",
+      "http_checks": "33",
+      "created_records": "0",
+      "result": "PASS",
+      "evidence": "demo-api-verification-2026-10-03T14-37-17.json"
+    }
+  ],
+  "analysis": {
+    "A": {
+      "data_class": "VIRTUAL",
+      "source": "saved Codex analysis; professional review pending",
+      "sha256": "85856df018ecf1d3fba7dc3ed3db5ae2966bbe23e45e94c4d9f4399fbecf65da",
+      "summary": "建议先用两组参考结构建立真实可比数据，再讨论新的结构改造。当前能支持的是计算属性差异、身份边界与演示数据的比较方式：四个结构的极性计数相同，非手性指纹无法区分 Dexamethasone 与 Betamethasone，而八条实验全部为人为模拟。不能据此选出药理最优分子。优先补充身份与纯度核验、同条件真实实验和不确定性记录。",
+      "findings": [
+        {
+          "text": "四个结构的计算 TPSA 均为 94.83 Å²、HBA 均为 5、HBD 均为 3、环数均为 4；这些指标在本组里没有区分度。MW 范围为 360.45–392.47 g/mol，cLogP 为 1.56–1.90，Fsp3 为 0.714–0.810。它们是计算值，不能直接换成溶解度、吸收或安全性结论。",
+          "evidence_ids": [
+            "COMPOUND-12",
+            "COMPOUND-13",
+            "COMPOUND-14",
+            "COMPOUND-15"
+          ]
+        },
+        {
+          "text": "Dexamethasone 与 Betamethasone 的完整 InChIKey 不同，但本次非手性 Morgan/Tanimoto 检索得分同为 1.0000，数据库中的 MW、cLogP、TPSA、HBA/HBD、Fsp3 和 QED 也相同。因此当前检索和这些描述符可以识别相近候选，却不能证明完整结构身份或生物作用等价。两个身份应继续独立保留。",
+          "evidence_ids": [
+            "COMPOUND-13",
+            "COMPOUND-15",
+            "SIMILARITY-13",
+            "SIMILARITY-15"
+          ]
+        },
+        {
+          "text": "Hydrocortisone 与 Prednisolone 的计算值可以形成一个明确比较：Prednisolone 的 MW 低 2.02 g/mol，cLogP 低 0.22，Fsp3 低 0.096；TPSA、HBA/HBD 与环数相同。这里只陈述数值差异，不把任何具体取代位置、双键变化或药理因果当作已经验证的 SAR。",
+          "evidence_ids": [
+            "COMPOUND-12",
+            "COMPOUND-14"
+          ]
+        },
+        {
+          "text": "演示中 Hydrocortisone 与 Prednisolone 的 Ki 分别为 8 与 4 nM，前者数值是后者的 2 倍；30 分钟剩余比例分别为 42% 与 38%，相差 4 个百分点。这些数值全部标为 SIMULATED，只能展示同协议比较与权衡的操作，不能称为实测结合差异、代谢改善或有效 SAR。",
+          "evidence_ids": [
+            "RESULT-1",
+            "RESULT-2",
+            "RESULT-5",
+            "RESULT-6"
+          ]
+        },
+        {
+          "text": "Dexamethasone 与 Betamethasone 的模拟 Ki 为 1.5 与 1.2 nM，比值 1.25；模拟剩余比例为 55% 与 49%，差 6 个百分点。两组指标在演示表中的排序并不一致。没有真实重复、误差与统计设计，不能据此认定优劣、显著差异或推算半衰期。",
+          "evidence_ids": [
+            "RESULT-3",
+            "RESULT-4",
+            "RESULT-7",
+            "RESULT-8"
+          ]
+        },
+        {
+          "text": "以 Dexamethasone 为查询、阈值 0.5，本次实际检索还返回 API-010，分数为 0.7576、排名第三。分数表示指纹相似性，第三名不是药理优先级；当前分析上下文没有 API-010 的可比实验。四个 DEMO-GC 分子的 accepted_source_count 均为 0，历史批量接受记录不能自动充当这四个案例的专业药理依据。",
+          "evidence_ids": [
+            "SIMILARITY-10",
+            "COMPOUND-12",
+            "COMPOUND-13",
+            "COMPOUND-14",
+            "COMPOUND-15"
+          ]
+        }
+      ],
+      "hypotheses": [
+        {
+          "text": "优先验证 Dexamethasone / Betamethasone：在非手性计算属性相同的前提下，真实同条件实验是否仍能区分二者？这是待验证问题，当前模拟值不提供答案。",
+          "evidence_ids": [
+            "COMPOUND-13",
+            "COMPOUND-15",
+            "SIMILARITY-15",
+            "RESULT-3",
+            "RESULT-7"
+          ],
+          "validation": "先由专业人员复核完整结构、样品身份及立体纯度，统一化学形态、纯度、浓度和溶剂条件；制定包含阳性/阴性对照、独立重复与剂量响应的真实结合实验。同步记录真实稳定性、批次、协议、原始曲线和不确定性；重复数与判定标准在实验前由专业人员确定。",
+          "tradeoff": "需要标准品、身份/纯度分析和真实实验资源；相同的非手性分数仍可能掩盖重要结构差别。这里没有给出预期活性值，也没有承诺某个异构体更优。"
+        },
+        {
+          "text": "用 Hydrocortisone / Prednisolone 检验计算属性差异能否为真实比较提供有用信息，再决定是否值得设计新的结构变化。",
+          "evidence_ids": [
+            "COMPOUND-12",
+            "COMPOUND-14",
+            "RESULT-1",
+            "RESULT-5"
+          ],
+          "validation": "先确认结构差异与样品形态，再在统一条件下补充真实溶解度或 logD，以及可比较的结合/功能和稳定性数据。分别记录计算属性与实测属性，预先设定主要评价指标；有一致结果并经过专家复核后，再提出具体改造位点。",
+          "tradeoff": "当前 cLogP 差仅 0.22，缺少适用条件和误差；可能不足以支持物性或药理改善。多项测量增加成本，不能把模拟 Ki 的两倍数值差当作研发收益。"
+        },
+        {
+          "text": "将 API-010 作为检索后身份审查的案例，而不是直接加入四分子的活性排名；先验证化学形态与实验可比性。",
+          "evidence_ids": [
+            "SIMILARITY-10",
+            "COMPOUND-13"
+          ],
+          "validation": "打开候选的完整结构与来源，核对立体身份、盐或衍生物形态、组分及实验浓度口径；仅在专业人员确认可比条件并获得真实实验后进入同一比较表。增加保留立体信息的辅助检索作为拟议改进，并继续以完整 InChIKey 做身份核验。",
+          "tradeoff": "需要额外结构/形态复核；分数 0.7576 本身没有方向性药理含义。辅助手性检索尚未实现和实测，本次不能宣称已经具备。"
+        }
+      ],
+      "limitations": [
+        "本次分析由当前对话中的 Codex 根据保存的数据库上下文生成，平台没有实时调用外部模型，也没有进行专家签字复核。",
+        "八条实验全部为人为模拟；没有真实重复、误差、原始实验曲线或真实 PK/安全性数据，不支持疗效、显著性、半衰期或候选优劣结论。",
+        "没有逐条审核药理文献或完成专业 SAR 验证；历史 source_record 批量演示接受与四个参考分子的证据充分性是不同问题。",
+        "假设和实验计划均未执行，不构成新分子合成成果或实验结果；没有实际工时基线、成本或 ROI 数据。"
+      ]
+    },
+    "B": {
+      "data_class": "VIRTUAL",
+      "source": "saved Codex analysis; professional review pending",
+      "sha256": "85904ab58ea28a3e11577b10633fd0e5f4b63c6f836ae9ad6d46b0c80f4f97b1",
+      "summary": "本次输入为API-007 Brexanolone，软件读取了保存的立体结构与计算描述符，但没有任何实验记录。249条演示接受关联只是数量，不包含本次可引用的来源内容。本例验证缺失数据下的流程，不形成真实SAR、临床疗效、PK或安全性结论。",
+      "findings": [
+        {
+          "text": "已存结构的完整InChIKey为AURFZBICLPNKBZ-SYBPFIFISA-N，类别记录为neurosteroid。MW 318.50、cLogP 4.60、TPSA 37.30、HBA 2、HBD 1、Fsp3 0.952、环数4、QED 0.767均为计算属性；这些不证明样品身份或药理。输入的盐形态、供应商、批次和合成路线为空。",
+          "evidence_ids": [
+            "COMPOUND-7"
+          ]
+        },
+        {
+          "text": "当前experiments为空，experiment_metadata为空，条件分组为空，缺失实验清单列出Brexanolone。因此没有可比较的结合、功能或稳定性数值，不得用四个糖皮质激素的模拟记录补充该分子的实验。",
+          "evidence_ids": [
+            "COMPOUND-7"
+          ]
+        },
+        {
+          "text": "以Brexanolone作为首个查询、阈值0.8时，当前库返回自身，Tanimoto为1.0、排名1。这只是非手性指纹的检索结果，不表示其他分子在全球不存在，也不验证临床效果或完整立体身份。",
+          "evidence_ids": [
+            "SIMILARITY-7"
+          ]
+        },
+        {
+          "text": "accepted_source_count为249，但evidence_index只有COMPOUND-7及SIMILARITY-7，没有文献、临床试验、标签或其他来源内容引用。演示接受数量不能转化为已专业核验的结论，本次不据此推断批准状态、适应证或临床疗效。",
+          "evidence_ids": [
+            "COMPOUND-7"
+          ]
+        }
+      ],
+      "hypotheses": [
+        {
+          "text": "先补证据范围：若要研究真实药理，应选定少量相关、可追溯且允许使用的来源，经内容核验后再整理新的分析输入。",
+          "evidence_ids": [
+            "COMPOUND-7"
+          ],
+          "validation": "实际操作者确认研究问题、具体来源和许可，专业人员核对身份、来源正文及所支持的结论；保留文档编号、摘要和核验结果。当前计划未执行，249条批量接受记录不自动变成专业核验。",
+          "tradeoff": "需要来源核验与人员时间；已有数量不能代替质量。不能把未经读取的正文、过期授权或商业原件自动转发给外部模型。"
+        },
+        {
+          "text": "先补可比实验：在结构优化前取得符合目标的真实实验和条件，而不是在没有实验的情况下选择改造位点或预估活性。",
+          "evidence_ids": [
+            "COMPOUND-7"
+          ],
+          "validation": "由专业人员确认研究目标与样品、协议、单位、条件、原始结果、重复和误差；取得真实记录后生成新的v2输入，检查条件分组并重新分析。当前未开展实验，没有预设结果。",
+          "tradeoff": "真实测量和专业复核需要资源；计算属性与自身相似性不能提供优化成功率、成本收益或安全性结论。"
+        }
+      ],
+      "limitations": [
+        "当前输入没有任何实验、来源正文或已核验SAR证据。",
+        "249是演示接受关联数量，不等于249份专业内容核验，也不证明任何真实药理事实。",
+        "结构和描述符的软件一致性检查不代替专业身份、样品或药理审核。",
+        "两个计划均未执行；没有新候选、实测数值、临床建议或ROI。",
+        "分析来自本次Codex对话，平台没有实时调用AI渠道。"
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "data_class": "VIRTUAL",
+      "source": "saved Codex candidate analysis",
+      "sha256": "d13fbe4993f1193f3903bf1b21a8437ee52353602c9c56d878f8900e12fd136a",
+      "hypothesis": {
+        "text": "将Hydrocortisone末端羟甲基上的OH改为O-乙酰基，保持输入中的甾体环及既有立体中心，作为羟基掩蔽的结构假设。目的在于提出可明确比较的单点变化，不预设它提高结合、稳定性或暴露。",
+        "evidence_ids": [
+          "COMPOUND-12",
+          "RESULT-1",
+          "RESULT-2"
+        ],
+        "validation": "先由专业人员确认定位、结构、可获得性与合成/纯度核验路径。随后与母体在同一GR结合协议和相同浓度条件下比较；微粒体测试采用多时间点并用LC-MS同时区分候选与母体，另测缓冲液/血浆中的结构稳定性、溶解度和logD。实验尚未执行。",
+        "tradeoff": "新增酯基可能引入结构转化、测定解释和制样问题。是否生成母体、是否保留结合以及实际ADME均未知；cLogP、TPSA和QED计算值不能代替这些结果，也没有专利新颖性或合成可行性结论。",
+        "candidate": {
+          "parent_compound_id": 12,
+          "smiles": "CC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C",
+          "modification": "母体canonical SMILES中唯一[CH2][OX2H]匹配的氧原子（RDKit零起算索引25）连接乙酰基；该索引不是惯用甾体位点编号。"
+        }
+      },
+      "check": {
+        "hypothesis_index": 1,
+        "status": "VALID_STRUCTURE_ONLY",
+        "parent_compound_id": 12,
+        "canonical_smiles": "CC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C",
+        "inchikey": "ALEXXDVDDISNDU-JZYPGELDSA-N",
+        "descriptor": {
+          "mw": 404.5,
+          "clogp": 2.35,
+          "tpsa": 100.9,
+          "hba": 6,
+          "hbd": 2,
+          "rotatable_bonds": 3,
+          "fsp3": 0.783,
+          "ring_count": 4,
+          "bemis_murcko_scaffold": "O=C1C=C2CC[C@H]3[C@@H]4CCCC4CC[C@@H]3C2CC1",
+          "sa_score": 4.34,
+          "qed": 0.701,
+          "is_steroid_scaffold": true
+        },
+        "descriptor_delta": {
+          "mw": 42.03,
+          "clogp": 0.57,
+          "tpsa": 6.07,
+          "hba": 1,
+          "hbd": -1,
+          "fsp3": -0.027,
+          "rotatable_bonds": 1
+        },
+        "unassigned_stereocenters": 0,
+        "data_class": "VIRTUAL_UNTESTED",
+        "expert_review": "PENDING",
+        "notice": "仅验证可解析结构及计算属性；未检索新颖性、未合成、无实测活性/ADME/安全性，不写入化合物或实验库。"
+      }
+    },
+    {
+      "data_class": "VIRTUAL",
+      "source": "saved Codex candidate analysis",
+      "sha256": "d13fbe4993f1193f3903bf1b21a8437ee52353602c9c56d878f8900e12fd136a",
+      "hypothesis": {
+        "text": "对同一末端OH进行O-甲基化，形成另一种单点羟基掩蔽候选，比较它与母体及O-乙酰化候选的计算性质和将来的实测差异。减少一个供氢基团是结构变化，是否带来研发收益尚未知。",
+        "evidence_ids": [
+          "COMPOUND-12",
+          "RESULT-1",
+          "RESULT-2"
+        ],
+        "validation": "完成独立身份/纯度及专业结构复核后，与母体、乙酰化候选同批测定GR结合、溶解度、logD及带化学身份监测的微粒体时间曲线。保持浓度、单位和协议一致；不得用当前模拟结果代填候选数值。实验尚未执行。",
+        "tradeoff": "计算TPSA降低和cLogP升高不能证明通透性改善；真实结合、溶解度和代谢仍可能不利。较高QED也不是药效、安全性或优化成功证据。未查询新颖性，未决定合成路线。",
+        "candidate": {
+          "parent_compound_id": 12,
+          "smiles": "COCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C",
+          "modification": "在与假设1相同的母体氧原子上连接甲基；保留现有环系及立体标记，不引入新的立体中心。"
+        }
+      },
+      "check": {
+        "hypothesis_index": 2,
+        "status": "VALID_STRUCTURE_ONLY",
+        "parent_compound_id": 12,
+        "canonical_smiles": "COCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C",
+        "inchikey": "CWPLHARQWLJCLY-CWNVBEKCSA-N",
+        "descriptor": {
+          "mw": 376.49,
+          "clogp": 2.44,
+          "tpsa": 83.83,
+          "hba": 5,
+          "hbd": 2,
+          "rotatable_bonds": 3,
+          "fsp3": 0.818,
+          "ring_count": 4,
+          "bemis_murcko_scaffold": "O=C1C=C2CC[C@H]3[C@@H]4CCCC4CC[C@@H]3C2CC1",
+          "sa_score": 4.35,
+          "qed": 0.79,
+          "is_steroid_scaffold": true
+        },
+        "descriptor_delta": {
+          "mw": 14.02,
+          "clogp": 0.66,
+          "tpsa": -11.0,
+          "hba": 0,
+          "hbd": -1,
+          "fsp3": 0.008,
+          "rotatable_bonds": 1
+        },
+        "unassigned_stereocenters": 0,
+        "data_class": "VIRTUAL_UNTESTED",
+        "expert_review": "PENDING",
+        "notice": "仅验证可解析结构及计算属性；未检索新颖性、未合成、无实测活性/ADME/安全性，不写入化合物或实验库。"
+      }
+    }
+  ]
+}

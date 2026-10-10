@@ -1,0 +1,12 @@
+{
+  "data_class": "REAL",
+  "source": "local export",
+  "csv_fingerprints": {
+    "演示分子清单": "c15f5f361e4b46b8a913667b5676b44bf63a6e5c82d71b409369dc2750d10cf2",
+    "真实计算描述符": "ec75b5073e3c92076d2614a0fb9deda479076f4433d18031737248d2c3b53a97",
+    "模拟实验数据": "5cec43932b97bce3b4027bf31ae21d223cb906031e3fc7acfe7f04ad4f343f67",
+    "来源核对记录": "d4ee0127fc23ba8477d2237a50d16b3b2bb852ccc8a711bdf4e3265ff49f65fa",
+    "结构相似性计算": "f1ddc6d8dad5ef98f6619be299a00eb50289ec91282aa2234fa97e987798936e",
+    "基础API验证记录": "1333e2f8bbdee86c1cd00ec5e9f31c9f888ec2c31a21f67df926eefac9ecfa84"
+  }
+}
