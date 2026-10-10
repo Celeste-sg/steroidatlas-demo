@@ -5,3 +5,5 @@
 .catalog-filters{position:relative}
 
 .expansion-estimate{border-top:1px solid var(--line);background:#f8fafc}.expansion-estimate h3{font-size:14px;margin:0}.expansion-estimate .coverage-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}.expansion-estimate strong{font-size:27px}.estimate-method{padding:0 24px 18px;font-size:12px;color:var(--muted)}.estimate-method summary{cursor:pointer}.estimate-method p{max-width:900px}.estimate-method a{font-size:12px}@media(max-width:620px){.expansion-estimate .coverage-heading{flex-wrap:wrap;gap:8px}.expansion-estimate .coverage-metrics{grid-template-columns:1fr;gap:14px}.estimate-method{padding:0 16px 16px}}
+
+.estimate-tables{padding:0 24px 16px}.estimate-tables h4{font-size:13px;margin:20px 0 9px}.estimate-tables .subtle{font-size:12px}.estimate-tables table{font-size:12px}.estimate-tables td,.estimate-tables th{padding:9px 12px}@media(max-width:620px){.estimate-tables{padding:0 16px 16px}.estimate-tables table{min-width:530px}}
