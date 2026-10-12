@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-12",
+  "catalog_entries": 61,
+  "excluded_intermediate": "Prednisolone 21-mesyl",
+  "names": [
+    "Prednisone Acetate",
+    "Prednisolone",
+    "Prednisolone Acetate",
+    "Hydrocortisone Butyrate",
+    "Mometasone Furoate",
+    "Fluticasone Propionate",
+    "Betamethasone Valerate",
+    "Betamethasone Dipropionate",
+    "Dexamethasone Acetate",
+    "Dexamethasone Sodium Phosphate",
+    "Prednisolone Sodium Phosphate",
+    "Betamethasone Sodium Phosphate",
+    "Betamethasone",
+    "Dexamethasone",
+    "Triamcinolone Acetonide Acetate",
+    "Triamcinolone Acetonide",
+    "Prednisone",
+    "Methylprednisolone Acetate",
+    "Methylprednisolone",
+    "Hydrocortisone Acetate",
+    "Hydrocortisone",
+    "Flumethasone",
+    "Methylprednisolone Hemisuccinate",
+    "Ciclesonide",
+    "Eplerenone",
+    "Estradiol",
+    "Estradiol Valerate",
+    "Estradiol Benzoate",
+    "Estradiol Enanthate",
+    "Estriol",
+    "Ethinylestradiol",
+    "Testosterone Cypionate",
+    "Testosterone Undecanoate",
+    "Testosterone Dodecanoate",
+    "Testosterone Tridecanoate",
+    "Testosterone Propionate",
+    "Testosterone",
+    "Estradiol Cypionate",
+    "Testosterone Enanthate",
+    "Cyproterone Acetate",
+    "Mifepristone",
+    "Progesterone",
+    "Norethindrone",
+    "Norethisterone",
+    "Norethisterone Enanthate",
+    "Norethisterone Acetate",
+    "Medroxyprogesterone Acetate",
+    "Megestrol Acetate",
+    "Cisatracurium Besylate",
+    "Neostigmine Methylsulfate",
+    "Ropivacaine Mesylate",
+    "Ropivacaine Hydrochloride",
+    "Flumazenil",
+    "Pidotimod",
+    "Tiotropium Bromide",
+    "Butylphthalide",
+    "Rocuronium Bromide",
+    "Vecuronium Bromide",
+    "Sugammadex Sodium",
+    "Adamgammadex Sodium",
+    "Indobufen"
+  ],
+  "parents": [
+    "Prednisone",
+    "Prednisolone",
+    "Hydrocortisone",
+    "Mometasone",
+    "Fluticasone",
+    "Betamethasone",
+    "Dexamethasone",
+    "Triamcinolone",
+    "Methylprednisolone",
+    "Flumethasone",
+    "Ciclesonide",
+    "Eplerenone",
+    "Estradiol",
+    "Estriol",
+    "Ethinylestradiol",
+    "Testosterone",
+    "Cyproterone",
+    "Mifepristone",
+    "Progesterone",
+    "Norethindrone",
+    "Norethisterone",
+    "Medroxyprogesterone",
+    "Megestrol",
+    "Cisatracurium",
+    "Neostigmine",
+    "Ropivacaine",
+    "Flumazenil",
+    "Pidotimod",
+    "Tiotropium",
+    "Butylphthalide",
+    "Rocuronium",
+    "Vecuronium",
+    "Sugammadex",
+    "Adamgammadex",
+    "Indobufen"
+  ],
+  "counts": [
+    {
+      "scope": "catalog",
+      "source": "pubmed",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "params": {
+        "db": "pubmed",
+        "term": "\"Prednisone Acetate\" OR \"Prednisolone\" OR \"Prednisolone Acetate\" OR \"Hydrocortisone Butyrate\" OR \"Mometasone Furoate\" OR \"Fluticasone Propionate\" OR \"Betamethasone Valerate\" OR \"Betamethasone Dipropionate\" OR \"Dexamethasone Acetate\" OR \"Dexamethasone Sodium Phosphate\" OR \"Prednisolone Sodium Phosphate\" OR \"Betamethasone Sodium Phosphate\" OR \"Betamethasone\" OR \"Dexamethasone\" OR \"Triamcinolone Acetonide Acetate\" OR \"Triamcinolone Acetonide\" OR \"Prednisone\" OR \"Methylprednisolone Acetate\" OR \"Methylprednisolone\" OR \"Hydrocortisone Acetate\" OR \"Hydrocortisone\" OR \"Flumethasone\" OR \"Methylprednisolone Hemisuccinate\" OR \"Ciclesonide\" OR \"Eplerenone\" OR \"Estradiol\" OR \"Estradiol Valerate\" OR \"Estradiol Benzoate\" OR \"Estradiol Enanthate\" OR \"Estriol\" OR \"Ethinylestradiol\" OR \"Testosterone Cypionate\" OR \"Testosterone Undecanoate\" OR \"Testosterone Dodecanoate\" OR \"Testosterone Tridecanoate\" OR \"Testosterone Propionate\" OR \"Testosterone\" OR \"Estradiol Cypionate\" OR \"Testosterone Enanthate\" OR \"Cyproterone Acetate\" OR \"Mifepristone\" OR \"Progesterone\" OR \"Norethindrone\" OR \"Norethisterone\" OR \"Norethisterone Enanthate\" OR \"Norethisterone Acetate\" OR \"Medroxyprogesterone Acetate\" OR \"Megestrol Acetate\" OR \"Cisatracurium Besylate\" OR \"Neostigmine Methylsulfate\" OR \"Ropivacaine Mesylate\" OR \"Ropivacaine Hydrochloride\" OR \"Flumazenil\" OR \"Pidotimod\" OR \"Tiotropium Bromide\" OR \"Butylphthalide\" OR \"Rocuronium Bromide\" OR \"Vecuronium Bromide\" OR \"Sugammadex Sodium\" OR \"Adamgammadex Sodium\" OR \"Indobufen\"",
+        "retmax": 0,
+        "retmode": "json"
+      },
+      "count": 650044
+    },
+    {
+      "scope": "catalog",
+      "source": "labels",
+      "url": "https://api.fda.gov/drug/label.json",
+      "params": {
+        "search": "(openfda.generic_name:\"Prednisone Acetate\" OR openfda.substance_name:\"Prednisone Acetate\") OR (openfda.generic_name:\"Prednisolone\" OR openfda.substance_name:\"Prednisolone\") OR (openfda.generic_name:\"Prednisolone Acetate\" OR openfda.substance_name:\"Prednisolone Acetate\") OR (openfda.generic_name:\"Hydrocortisone Butyrate\" OR openfda.substance_name:\"Hydrocortisone Butyrate\") OR (openfda.generic_name:\"Mometasone Furoate\" OR openfda.substance_name:\"Mometasone Furoate\") OR (openfda.generic_name:\"Fluticasone Propionate\" OR openfda.substance_name:\"Fluticasone Propionate\") OR (openfda.generic_name:\"Betamethasone Valerate\" OR openfda.substance_name:\"Betamethasone Valerate\") OR (openfda.generic_name:\"Betamethasone Dipropionate\" OR openfda.substance_name:\"Betamethasone Dipropionate\") OR (openfda.generic_name:\"Dexamethasone Acetate\" OR openfda.substance_name:\"Dexamethasone Acetate\") OR (openfda.generic_name:\"Dexamethasone Sodium Phosphate\" OR openfda.substance_name:\"Dexamethasone Sodium Phosphate\") OR (openfda.generic_name:\"Prednisolone Sodium Phosphate\" OR openfda.substance_name:\"Prednisolone Sodium Phosphate\") OR (openfda.generic_name:\"Betamethasone Sodium Phosphate\" OR openfda.substance_name:\"Betamethasone Sodium Phosphate\") OR (openfda.generic_name:\"Betamethasone\" OR openfda.substance_name:\"Betamethasone\") OR (openfda.generic_name:\"Dexamethasone\" OR openfda.substance_name:\"Dexamethasone\") OR (openfda.generic_name:\"Triamcinolone Acetonide Acetate\" OR openfda.substance_name:\"Triamcinolone Acetonide Acetate\") OR (openfda.generic_name:\"Triamcinolone Acetonide\" OR openfda.substance_name:\"Triamcinolone Acetonide\") OR (openfda.generic_name:\"Prednisone\" OR openfda.substance_name:\"Prednisone\") OR (openfda.generic_name:\"Methylprednisolone Acetate\" OR openfda.substance_name:\"Methylprednisolone Acetate\") OR (openfda.generic_name:\"Methylprednisolone\" OR openfda.substance_name:\"Methylprednisolone\") OR (openfda.generic_name:\"Hydrocortisone Acetate\" OR openfda.substance_name:\"Hydrocortisone Acetate\") OR (openfda.generic_name:\"Hydrocortisone\" OR openfda.substance_name:\"Hydrocortisone\") OR (openfda.generic_name:\"Flumethasone\" OR openfda.substance_name:\"Flumethasone\") OR (openfda.generic_name:\"Methylprednisolone Hemisuccinate\" OR openfda.substance_name:\"Methylprednisolone Hemisuccinate\") OR (openfda.generic_name:\"Ciclesonide\" OR openfda.substance_name:\"Ciclesonide\") OR (openfda.generic_name:\"Eplerenone\" OR openfda.substance_name:\"Eplerenone\") OR (openfda.generic_name:\"Estradiol\" OR openfda.substance_name:\"Estradiol\") OR (openfda.generic_name:\"Estradiol Valerate\" OR openfda.substance_name:\"Estradiol Valerate\") OR (openfda.generic_name:\"Estradiol Benzoate\" OR openfda.substance_name:\"Estradiol Benzoate\") OR (openfda.generic_name:\"Estradiol Enanthate\" OR openfda.substance_name:\"Estradiol Enanthate\") OR (openfda.generic_name:\"Estriol\" OR openfda.substance_name:\"Estriol\") OR (openfda.generic_name:\"Ethinylestradiol\" OR openfda.substance_name:\"Ethinylestradiol\") OR (openfda.generic_name:\"Testosterone Cypionate\" OR openfda.substance_name:\"Testosterone Cypionate\") OR (openfda.generic_name:\"Testosterone Undecanoate\" OR openfda.substance_name:\"Testosterone Undecanoate\") OR (openfda.generic_name:\"Testosterone Dodecanoate\" OR openfda.substance_name:\"Testosterone Dodecanoate\") OR (openfda.generic_name:\"Testosterone Tridecanoate\" OR openfda.substance_name:\"Testosterone Tridecanoate\") OR (openfda.generic_name:\"Testosterone Propionate\" OR openfda.substance_name:\"Testosterone Propionate\") OR (openfda.generic_name:\"Testosterone\" OR openfda.substance_name:\"Testosterone\") OR (openfda.generic_name:\"Estradiol Cypionate\" OR openfda.substance_name:\"Estradiol Cypionate\") OR (openfda.generic_name:\"Testosterone Enanthate\" OR openfda.substance_name:\"Testosterone Enanthate\") OR (openfda.generic_name:\"Cyproterone Acetate\" OR openfda.substance_name:\"Cyproterone Acetate\") OR (openfda.generic_name:\"Mifepristone\" OR openfda.substance_name:\"Mifepristone\") OR (openfda.generic_name:\"Progesterone\" OR openfda.substance_name:\"Progesterone\") OR (openfda.generic_name:\"Norethindrone\" OR openfda.substance_name:\"Norethindrone\") OR (openfda.generic_name:\"Norethisterone\" OR openfda.substance_name:\"Norethisterone\") OR (openfda.generic_name:\"Norethisterone Enanthate\" OR openfda.substance_name:\"Norethisterone Enanthate\") OR (openfda.generic_name:\"Norethisterone Acetate\" OR openfda.substance_name:\"Norethisterone Acetate\") OR (openfda.generic_name:\"Medroxyprogesterone Acetate\" OR openfda.substance_name:\"Medroxyprogesterone Acetate\") OR (openfda.generic_name:\"Megestrol Acetate\" OR openfda.substance_name:\"Megestrol Acetate\") OR (openfda.generic_name:\"Cisatracurium Besylate\" OR openfda.substance_name:\"Cisatracurium Besylate\") OR (openfda.generic_name:\"Neostigmine Methylsulfate\" OR openfda.substance_name:\"Neostigmine Methylsulfate\") OR (openfda.generic_name:\"Ropivacaine Mesylate\" OR openfda.substance_name:\"Ropivacaine Mesylate\") OR (openfda.generic_name:\"Ropivacaine Hydrochloride\" OR openfda.substance_name:\"Ropivacaine Hydrochloride\") OR (openfda.generic_name:\"Flumazenil\" OR openfda.substance_name:\"Flumazenil\") OR (openfda.generic_name:\"Pidotimod\" OR openfda.substance_name:\"Pidotimod\") OR (openfda.generic_name:\"Tiotropium Bromide\" OR openfda.substance_name:\"Tiotropium Bromide\") OR (openfda.generic_name:\"Butylphthalide\" OR openfda.substance_name:\"Butylphthalide\") OR (openfda.generic_name:\"Rocuronium Bromide\" OR openfda.substance_name:\"Rocuronium Bromide\") OR (openfda.generic_name:\"Vecuronium Bromide\" OR openfda.substance_name:\"Vecuronium Bromide\") OR (openfda.generic_name:\"Sugammadex Sodium\" OR openfda.substance_name:\"Sugammadex Sodium\") OR (openfda.generic_name:\"Adamgammadex Sodium\" OR openfda.substance_name:\"Adamgammadex Sodium\") OR (openfda.generic_name:\"Indobufen\" OR openfda.substance_name:\"Indobufen\")",
+        "limit": 1
+      },
+      "count": 2825
+    },
+    {
+      "scope": "expanded",
+      "source": "pubmed",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "params": {
+        "db": "pubmed",
+        "term": "\"Prednisone Acetate\" OR \"Prednisolone\" OR \"Prednisolone Acetate\" OR \"Hydrocortisone Butyrate\" OR \"Mometasone Furoate\" OR \"Fluticasone Propionate\" OR \"Betamethasone Valerate\" OR \"Betamethasone Dipropionate\" OR \"Dexamethasone Acetate\" OR \"Dexamethasone Sodium Phosphate\" OR \"Prednisolone Sodium Phosphate\" OR \"Betamethasone Sodium Phosphate\" OR \"Betamethasone\" OR \"Dexamethasone\" OR \"Triamcinolone Acetonide Acetate\" OR \"Triamcinolone Acetonide\" OR \"Prednisone\" OR \"Methylprednisolone Acetate\" OR \"Methylprednisolone\" OR \"Hydrocortisone Acetate\" OR \"Hydrocortisone\" OR \"Flumethasone\" OR \"Methylprednisolone Hemisuccinate\" OR \"Ciclesonide\" OR \"Eplerenone\" OR \"Estradiol\" OR \"Estradiol Valerate\" OR \"Estradiol Benzoate\" OR \"Estradiol Enanthate\" OR \"Estriol\" OR \"Ethinylestradiol\" OR \"Testosterone Cypionate\" OR \"Testosterone Undecanoate\" OR \"Testosterone Dodecanoate\" OR \"Testosterone Tridecanoate\" OR \"Testosterone Propionate\" OR \"Testosterone\" OR \"Estradiol Cypionate\" OR \"Testosterone Enanthate\" OR \"Cyproterone Acetate\" OR \"Mifepristone\" OR \"Progesterone\" OR \"Norethindrone\" OR \"Norethisterone\" OR \"Norethisterone Enanthate\" OR \"Norethisterone Acetate\" OR \"Medroxyprogesterone Acetate\" OR \"Megestrol Acetate\" OR \"Cisatracurium Besylate\" OR \"Neostigmine Methylsulfate\" OR \"Ropivacaine Mesylate\" OR \"Ropivacaine Hydrochloride\" OR \"Flumazenil\" OR \"Pidotimod\" OR \"Tiotropium Bromide\" OR \"Butylphthalide\" OR \"Rocuronium Bromide\" OR \"Vecuronium Bromide\" OR \"Sugammadex Sodium\" OR \"Adamgammadex Sodium\" OR \"Indobufen\" OR \"Mometasone\" OR \"Fluticasone\" OR \"Triamcinolone\" OR \"Cyproterone\" OR \"Medroxyprogesterone\" OR \"Megestrol\" OR \"Cisatracurium\" OR \"Neostigmine\" OR \"Ropivacaine\" OR \"Tiotropium\" OR \"Rocuronium\" OR \"Vecuronium\" OR \"Sugammadex\" OR \"Adamgammadex\"",
+        "retmax": 0,
+        "retmode": "json"
+      },
+      "count": 677441
+    }
+  ],
+  "additional_counts": {
+    "labels": {
+      "count": 2834,
+      "url": "https://api.fda.gov/drug/label.json",
+      "params": {
+        "search": "openfda.generic_name:(\"Prednisone Acetate\" OR \"Prednisolone\" OR \"Prednisolone Acetate\" OR \"Hydrocortisone Butyrate\" OR \"Mometasone Furoate\" OR \"Fluticasone Propionate\" OR \"Betamethasone Valerate\" OR \"Betamethasone Dipropionate\" OR \"Dexamethasone Acetate\" OR \"Dexamethasone Sodium Phosphate\" OR \"Prednisolone Sodium Phosphate\" OR \"Betamethasone Sodium Phosphate\" OR \"Betamethasone\" OR \"Dexamethasone\" OR \"Triamcinolone Acetonide Acetate\" OR \"Triamcinolone Acetonide\" OR \"Prednisone\" OR \"Methylprednisolone Acetate\" OR \"Methylprednisolone\" OR \"Hydrocortisone Acetate\" OR \"Hydrocortisone\" OR \"Flumethasone\" OR \"Methylprednisolone Hemisuccinate\" OR \"Ciclesonide\" OR \"Eplerenone\" OR \"Estradiol\" OR \"Estradiol Valerate\" OR \"Estradiol Benzoate\" OR \"Estradiol Enanthate\" OR \"Estriol\" OR \"Ethinylestradiol\" OR \"Testosterone Cypionate\" OR \"Testosterone Undecanoate\" OR \"Testosterone Dodecanoate\" OR \"Testosterone Tridecanoate\" OR \"Testosterone Propionate\" OR \"Testosterone\" OR \"Estradiol Cypionate\" OR \"Testosterone Enanthate\" OR \"Cyproterone Acetate\" OR \"Mifepristone\" OR \"Progesterone\" OR \"Norethindrone\" OR \"Norethisterone\" OR \"Norethisterone Enanthate\" OR \"Norethisterone Acetate\" OR \"Medroxyprogesterone Acetate\" OR \"Megestrol Acetate\" OR \"Cisatracurium Besylate\" OR \"Neostigmine Methylsulfate\" OR \"Ropivacaine Mesylate\" OR \"Ropivacaine Hydrochloride\" OR \"Flumazenil\" OR \"Pidotimod\" OR \"Tiotropium Bromide\" OR \"Butylphthalide\" OR \"Rocuronium Bromide\" OR \"Vecuronium Bromide\" OR \"Sugammadex Sodium\" OR \"Adamgammadex Sodium\" OR \"Indobufen\" OR \"Mometasone\" OR \"Fluticasone\" OR \"Triamcinolone\" OR \"Cyproterone\" OR \"Medroxyprogesterone\" OR \"Megestrol\" OR \"Cisatracurium\" OR \"Neostigmine\" OR \"Ropivacaine\" OR \"Tiotropium\" OR \"Rocuronium\" OR \"Vecuronium\" OR \"Sugammadex\" OR \"Adamgammadex\") OR openfda.substance_name:(\"Prednisone Acetate\" OR \"Prednisolone\" OR \"Prednisolone Acetate\" OR \"Hydrocortisone Butyrate\" OR \"Mometasone Furoate\" OR \"Fluticasone Propionate\" OR \"Betamethasone Valerate\" OR \"Betamethasone Dipropionate\" OR \"Dexamethasone Acetate\" OR \"Dexamethasone Sodium Phosphate\" OR \"Prednisolone Sodium Phosphate\" OR \"Betamethasone Sodium Phosphate\" OR \"Betamethasone\" OR \"Dexamethasone\" OR \"Triamcinolone Acetonide Acetate\" OR \"Triamcinolone Acetonide\" OR \"Prednisone\" OR \"Methylprednisolone Acetate\" OR \"Methylprednisolone\" OR \"Hydrocortisone Acetate\" OR \"Hydrocortisone\" OR \"Flumethasone\" OR \"Methylprednisolone Hemisuccinate\" OR \"Ciclesonide\" OR \"Eplerenone\" OR \"Estradiol\" OR \"Estradiol Valerate\" OR \"Estradiol Benzoate\" OR \"Estradiol Enanthate\" OR \"Estriol\" OR \"Ethinylestradiol\" OR \"Testosterone Cypionate\" OR \"Testosterone Undecanoate\" OR \"Testosterone Dodecanoate\" OR \"Testosterone Tridecanoate\" OR \"Testosterone Propionate\" OR \"Testosterone\" OR \"Estradiol Cypionate\" OR \"Testosterone Enanthate\" OR \"Cyproterone Acetate\" OR \"Mifepristone\" OR \"Progesterone\" OR \"Norethindrone\" OR \"Norethisterone\" OR \"Norethisterone Enanthate\" OR \"Norethisterone Acetate\" OR \"Medroxyprogesterone Acetate\" OR \"Megestrol Acetate\" OR \"Cisatracurium Besylate\" OR \"Neostigmine Methylsulfate\" OR \"Ropivacaine Mesylate\" OR \"Ropivacaine Hydrochloride\" OR \"Flumazenil\" OR \"Pidotimod\" OR \"Tiotropium Bromide\" OR \"Butylphthalide\" OR \"Rocuronium Bromide\" OR \"Vecuronium Bromide\" OR \"Sugammadex Sodium\" OR \"Adamgammadex Sodium\" OR \"Indobufen\" OR \"Mometasone\" OR \"Fluticasone\" OR \"Triamcinolone\" OR \"Cyproterone\" OR \"Medroxyprogesterone\" OR \"Megestrol\" OR \"Cisatracurium\" OR \"Neostigmine\" OR \"Ropivacaine\" OR \"Tiotropium\" OR \"Rocuronium\" OR \"Vecuronium\" OR \"Sugammadex\" OR \"Adamgammadex\")",
+        "limit": 1
+      }
+    },
+    "clinical": {
+      "count": 20397,
+      "url": "https://clinicaltrials.gov/api/v2/studies",
+      "params": {
+        "query.intr": "Prednisone OR Prednisolone OR Hydrocortisone OR Mometasone OR Fluticasone OR Betamethasone OR Dexamethasone OR Triamcinolone OR Methylprednisolone OR Flumethasone OR Ciclesonide OR Eplerenone OR Estradiol OR Estriol OR Ethinylestradiol OR Testosterone OR Cyproterone OR Mifepristone OR Progesterone OR Norethindrone OR Norethisterone OR Medroxyprogesterone OR Megestrol OR Cisatracurium OR Neostigmine OR Ropivacaine OR Flumazenil OR Pidotimod OR Tiotropium OR Butylphthalide OR Rocuronium OR Vecuronium OR Sugammadex OR Adamgammadex OR Indobufen",
+        "pageSize": 1,
+        "countTotal": "true",
+        "format": "json"
+      }
+    },
+    "orange_book": {
+      "products": 2542,
+      "applicants": 390,
+      "patent_links": 631,
+      "patent_numbers": 292,
+      "exclusivity_links": 18,
+      "source": "https://www.fda.gov/media/76860/download?attachment=",
+      "match": "exact ingredient or ingredient beginning with full catalogue/parent name; semicolon components; query scope, not expert validation"
+    }
+  },
+  "method": "Uncapped query counts and complete Orange Book file; not collected or professionally screened data. Capacity scenarios in app.js are explicit unvalidated assumptions, not measured exhaustive totals.",
+  "capacity_assumptions": {
+    "catalog_product_entries": 60,
+    "parent_search_names": 34,
+    "targets_per_product": [
+      1,
+      10
+    ],
+    "indications_per_parent": [
+      1,
+      20
+    ],
+    "relationships_per_product": [
+      10,
+      100
+    ],
+    "global_product_multiplier_of_us": [
+      1,
+      10
+    ],
+    "regulatory_events_per_product": [
+      2,
+      4
+    ],
+    "global_applicant_multiplier_of_us": [
+      1,
+      10
+    ],
+    "patent_leads_per_product": [
+      100,
+      1000
+    ],
+    "clinical_field_groups_per_registration": [
+      3,
+      10
+    ],
+    "assay_extractable_record_fraction": [
+      0.01,
+      0.1
+    ],
+    "assay_objects_per_extractable_paper": [
+      5,
+      20
+    ],
+    "intelligence_relevant_record_fraction": [
+      0.05,
+      0.2
+    ],
+    "facts_per_relevant_paper": [
+      1,
+      5
+    ],
+    "licensed_records_per_product": [
+      200,
+      2000
+    ],
+    "internal_fit_objects_per_product": [
+      3,
+      10
+    ],
+    "strategy_objects_per_product": [
+      1,
+      10
+    ],
+    "validation": "Planning assumptions only; not empirically sampled or verified exhaustive totals; categories overlap."
+  }
+}
